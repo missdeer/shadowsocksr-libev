@@ -297,6 +297,20 @@ usage()
         "                                  chacha20 and chacha20-ietf.\n");
     printf(
         "                                  The default cipher is rc4-md5.\n");
+    printf(
+        "       -O <protocol>              Protocol method: origin, verify_sha1, auth_sha1,\n");
+    printf(
+        "                                  auth_sha1_v2, auth_sha1_v4, auth_aes128_md5,\n");
+    printf(
+        "                                  auth_aes128_sha1, auth_chain_a\n");
+    printf(
+        "       -o <obfs>                  Obfs method: plain, http_simple, http_post,\n");
+    printf(
+        "                                  tls1.2_ticket_auth\n");
+    printf(
+        "       -G <protocol_param>        Protocol param\n");
+    printf(
+        "       -g <obfs_param>            Obfs param\n");
     printf("\n");
     printf(
         "       [-a <user>]                Run as another user.\n");
